@@ -17,8 +17,12 @@ html, body {
   background:#fff;
   text-align:center;
 }
-#landing {font-size:1.061vw; width:auto;}
-#landing > * {text-align:left;}
+#landing {
+  font-size:1.061vw; width:auto;
+}
+#landing > * {
+  text-align:left;
+}
 #landing .button {
   display:inline-block;
   padding:.75em 1.4em;
@@ -140,7 +144,7 @@ html, body {
 }
 #landing > .menu > a:hover {
   z-index:50;
-  text-transform:none;
+  text-transform: none;
   font-size:1.335em;
   color:#0a5070;
   width:9.3635em;
@@ -157,17 +161,17 @@ html, body {
   vertical-align:top;
 }
 #landing > .feature > .picture {
-  width:11.9375em; 
-  max-width:191px; 
-  margin-bottom:2.25em;
+  width:20em; 
+  max-width:400px; 
+  margin-bottom:1em;
 }
 #landing > .feature > .caption {
   font-size:1.4em;
   font-weight:normal;
-  margin-bottom:.8em;
+  margin-bottom: 0em;
   min-height:2.43em;
   color:#3e4e5c;
-  text-align:left;
+  text-align: center;
 }
 #landing > .feature > .summary {
   color:#737d85; 
@@ -332,11 +336,11 @@ html, body {
 #landing .slider > input.slide + label:before {
   content:""; 
   display:block; 
-  border:1px solid rgba(255,255,255,.3); 
+  border:1px solid rgba(246, 250, 13, 0.795); 
   transition:border-color .2s;
 }
 #landing .slider > input.slide + label:hover:before {
-  border-color:rgba(255,255,255,.4);
+  border-color:rgba(13, 219, 64, 0.904);
 }
 #landing .slider > input.slide:checked + label:before {
   border-color:rgb(247, 14, 14);
@@ -380,3 +384,9 @@ html, body {
 #landing .slider > input.slide:checked + label + div:before {
   width:100%; opacity:1
 }
+.info h3 {
+  font-size:1.5em; 
+  text-align: center;
+  color:hsl(157, 86%, 51%); 
+  text-transform:uppercase; 
+  }
